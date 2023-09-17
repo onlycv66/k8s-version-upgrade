@@ -1,0 +1,3 @@
+此脚本将使用shell脚本对Kubernetes集群完成自动化版本升级
+注意此脚本不支持k8s 1.24及以上版本，如您使用docker作为底层容器环境的话需安装cri-dockerd或将docker替换为container runtime作为底层容器环境
+如果您使用的网络插件是calico还需将calico进行升级
